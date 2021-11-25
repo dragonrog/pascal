@@ -1,0 +1,18 @@
+var a, b, c: integer;
+    b1, b2: boolean;
+begin
+  writeln('vvedite chislo a: ');
+  readln(a);
+  writeln('vvedite chislo b: ');
+  readln(b);
+  writeln('vvedite chislo c: ');
+  readln(c);
+  b1 := (A > B) AND (A < C);
+  b2 := (B > A) AND (A > C);
+
+  if (b1 or b2) then
+     writeln('da')
+  else
+     writeln('net');
+ readln();
+end.          
